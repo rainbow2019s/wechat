@@ -1,13 +1,17 @@
 {
     "name": "tanghao2018/wechat",
     "description": "EasyWeChat",
+    "license": "MIT",
     "authors": [
         {
             "name": "liuhao",
             "email": "l.hao.2012@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/lumen-framework": "5.6.*"
+    },
     "autoload": {
         "psr-4": {
             "tanghao2018\\wechat\\": "src/"       
