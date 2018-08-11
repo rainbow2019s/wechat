@@ -32,4 +32,9 @@ class WechatServiceProvider extends ServiceProvider
             return new Wechat();
         });
     }
+
+    public function provides()
+    {
+        return ['wechat'];
+    }
 }
