@@ -7,5 +7,10 @@
             "email": "l.hao.2012@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "tanghao2018\\wechat\\": "src/"       
+        }
+    }
 }
