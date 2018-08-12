@@ -1,7 +1,9 @@
 {
     "name": "tanghao2018/wechat",
     "description": "EasyWeChat",
+    "keywords": ["framework", "laravel", "lumen"],
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "liuhao",
@@ -16,5 +18,6 @@
         "psr-4": {
             "tanghao2018\\wechat\\": "src/"       
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
